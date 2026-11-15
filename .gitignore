@@ -1,0 +1,24 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Airflow runtime files
+logs/
+airflow.db
+airflow-webserver.pid
+config/airflow.cfg
+plugins/*
+!plugins/.gitkeep
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
